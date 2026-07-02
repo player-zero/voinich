@@ -1,0 +1,6 @@
+# corpora are fetched from their sources, not redistributed
+data/*.txt
+
+__pycache__/
+*.pyc
+.DS_Store
