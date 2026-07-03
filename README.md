@@ -122,6 +122,17 @@ We audited our own weakest points and ran three patch tests
   H2 = 2.53 on a small sample — the closest any language gets to the
   manuscript's 2.13; small-inventory languages narrow that particular
   gap, and we say so plainly.
+- **The full Maori showdown** (`test21_maori.py`, 34k tokens of Grey's
+  1854 legends run through the entire battery): Maori matches the
+  manuscript on the FORM axes — H2 2.52, and 48% of its words follow a
+  strict letter-order "slot" pattern vs the manuscript's 51% (CV
+  phonotactics genuinely mimics the slot machine; this is why
+  Polynesian/Chinese-type hypotheses were always reasonable). But it
+  diverges on every INFORMATION axis: adjacent-word MI 1.31 vs 0.30,
+  repeat avoidance 0.11 vs 1.24, cross-page 4-word formulas 3,595 vs 1,
+  and it keeps normal function-word anchors (top words more evenly
+  spread than median) where the manuscript shows the inverted pattern.
+  The small-alphabet door leads to the form, not to the message.
 - **The 166 cross-page 3-grams autopsied.** 4.7× above the
   within-page-shuffle null, but 94% composed of top-100 words, 1% rare
   words: stock chains of favorite words (perseveration), not
