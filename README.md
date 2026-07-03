@@ -133,6 +133,18 @@ We audited our own weakest points and ran three patch tests
   and it keeps normal function-word anchors (top words more evenly
   spread than median) where the manuscript shows the inverted pattern.
   The small-alphabet door leads to the form, not to the message.
+- **The conlang control** (`test23_quenya.py`): Neo-Quenya — an
+  INVENTED language carrying real content (Fauskanger's NT translation,
+  34k tokens). It is the closest corpus to the manuscript on the
+  vocabulary axes everyone cites as "language-like" (Zipf −0.96 vs
+  −1.04; Heaps 0.71 vs 0.74; hapax 55% vs 70%) — and a plain language
+  on every information axis (word MI 1.29, formulas 2,536/641, the
+  strongest repeat-avoidance in the table at 0.06, clean word
+  boundaries). Constructedness does not erase the information
+  signature; only meaninglessness does. With natural languages, a
+  small-alphabet CV language, formal code, and a constructed language
+  all tested, every class of meaningful system matches the manuscript
+  on some FORM axis and none matches its information emptiness.
 - **The code control** (`test22_code.py`): verbose C++ (nlohmann/json +
   Catch2, 34k tokens) as the third pole — meaningful but not a natural
   language. Result: meaning, natural or formal, *increases* sequential
