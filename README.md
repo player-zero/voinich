@@ -133,6 +133,16 @@ We audited our own weakest points and ran three patch tests
   and it keeps normal function-word anchors (top words more evenly
   spread than median) where the manuscript shows the inverted pattern.
   The small-alphabet door leads to the form, not to the message.
+- **The code control** (`test22_code.py`): verbose C++ (nlohmann/json +
+  Catch2, 34k tokens) as the third pole — meaningful but not a natural
+  language. Result: meaning, natural or formal, *increases* sequential
+  structure. Adjacent-token MI: C++ 1.90 > English 1.60 > Maori 1.31 >
+  Latin 0.95 ≫ Voynich 0.30. Cross-page 4-word formulas: C++ 18,563 >
+  Maori 3,595 > English 2,133 > Latin 104 ≫ Voynich 1. Even the most
+  formal system keeps language-level character entropy (H2 = 3.05). Any
+  "meaningful notation" reading of the manuscript must explain why it
+  is the only system in the table whose meaning left no sequential
+  trace.
 - **The 166 cross-page 3-grams autopsied.** 4.7× above the
   within-page-shuffle null, but 94% composed of top-100 words, 1% rare
   words: stock chains of favorite words (perseveration), not
