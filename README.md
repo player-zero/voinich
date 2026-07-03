@@ -110,6 +110,28 @@ analysis of "free choices" with an explicit ~4 KB steganographic capacity
 ceiling; frequency-band burstiness showing the absence of function-word
 anchors. We would genuinely like to know if any of these have priors.
 
+## Post-audit patches (added after an adversarial self-review)
+
+We audited our own weakest points and ran three patch tests
+(`test18..20`):
+
+- **Wider language yardsticks.** Latin (Caesar, free word order):
+  H2 = 3.30, adjacent-word MI excess = 0.97 — so the honest gap to the
+  loosest natural-language baseline is ~3×, not the 5× the English
+  control suggested. Maori (14-letter alphabet, strict CV syllables):
+  H2 = 2.53 on a small sample — the closest any language gets to the
+  manuscript's 2.13; small-inventory languages narrow that particular
+  gap, and we say so plainly.
+- **The 166 cross-page 3-grams autopsied.** 4.7× above the
+  within-page-shuffle null, but 94% composed of top-100 words, 1% rare
+  words: stock chains of favorite words (perseveration), not
+  content-bearing formulas.
+- **Scribal line-justification refuted as an alternative.** Last-word
+  length does not anti-correlate with line fullness (r = +0.04, vs
+  +0.15 for mid-line words), and the -m flourish rate is flat across
+  fullness terciles: the edge effects are positional ritual, not
+  fitting words to the margin.
+
 ## Limitations, honestly
 
 - Absence of meaning is unprovable in principle; this is a
@@ -131,7 +153,8 @@ anchors. We would genuinely like to know if any of these have priors.
 3. Find a word-form rule that survives line breaks as strongly as it works
    inside lines — it is badly shaken.
 4. Exhibit any language with per-character H2 ≈ 2.1 bits — the door to
-   simple substitution reopens.
+   simple substitution reopens. (Closest we measured: Maori at 2.53 on
+   a small sample; see the post-audit patches section.)
 
 ## Data credits and license
 
